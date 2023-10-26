@@ -1,0 +1,29 @@
+.home-page{
+  min-height: 100vh;
+  background-size: cover;
+  padding: 20px;
+  transition: 0.7s ease-in-out;
+  overflow: hidden;
+
+  &.sahara{
+    background-image: url(../../images/sahara_desert.webp);
+  }
+
+  &.nowa-zelandia{
+    background-image: url(../../images/new_zeland.webp);
+  }
+
+  &.góry{
+    background-image: url(../../images/regional_mountains.webp);
+  }
+
+  &.syjon{
+    background-image: url(../../images/zion.webp);
+  }
+}
+
+@media (min-width: 1020px) {
+  .home-page{
+    padding: 20px 40px;
+  }
+}
